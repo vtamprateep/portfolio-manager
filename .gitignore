@@ -5,3 +5,4 @@ precleared_etfs.xlsx
 .env
 .ipynb_checkpoints
 token.pickle
+.DS_Store
