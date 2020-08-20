@@ -1,0 +1,7 @@
+chromedriver
+stock_gen.ipynb
+exempt_etfs.xlsx
+precleared_etfs.xlsx
+.env
+.ipynb_checkpoints
+token.pickle
