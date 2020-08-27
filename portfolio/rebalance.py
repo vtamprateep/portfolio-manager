@@ -25,15 +25,16 @@ def get_webdriver(path = None):
         path = os.path.join(path, 'chromedriver')
     return webdriver.Chrome(path)
 
-def get_account_info(client, ACC_NUMBER, fields = None):
-    response = client.get_account(ACC_NUMBER, fields = fields).json()
-    return response['securitiesAccount']
+def get_account_info(client, acc_number, fields = None):
+    response = client.get_account(acc_number, fields = fields).json()
+    print(json.dumps(response, indent = 4))
+    return response
 
 def rebalance_portfolio(acc_bal, position, target):
     cur_val = acc_bal['liquidationValue']
     buy = defaultdict(int)
     sell = defaultdict(int)
-    print(position)
+    #print(json.dumps(acc_bal, indent = 4))
 
     for item in position:
         ticker = item['instrument']['symbol']
@@ -44,7 +45,6 @@ def rebalance_portfolio(acc_bal, position, target):
             continue
 
         adjust = cur_val * target[ticker] // price - quantity
-        print(adjust)
 
         if adjust < 0:
             sell[ticker] = abs(adjust)
@@ -80,16 +80,14 @@ if __name__ == '__main__':
     REDIRECT_URI = os.getenv('REDIRECT_URI')
     FOLDER_PATH = Path(__file__).parents[1].absolute()
     TOKEN_PATH = os.path.join(FOLDER_PATH, 'tokens/token.pickle')
-
-    api_key = TD_KEY + '@AMER.OAUTHAP'
+    API_KEY = TD_KEY + '@AMER.OAUTHAP'
 
     # Connect client and get account info
-    client = connect_client(api_key, REDIRECT_URI, TOKEN_PATH, get_webdriver)
-    acc_info = get_account_info(client, ACC_NUMBER, client.Account.Fields.POSITIONS)
+    client = connect_client(API_KEY, REDIRECT_URI, TOKEN_PATH, get_webdriver)
+    acc_info = get_account_info(client, ACC_NUMBER, client.Account.Fields.POSITIONS)['securitiesAccount']
 
     # Get buy, sell orders
     buy, sell = rebalance_portfolio(acc_info['currentBalances'], acc_info['positions'], target_holding)
-    print(buy, sell)
 
     # Place orders
-    place_orders(client, ACC_NUMBER, buy, sell)
+    #place_orders(client, ACC_NUMBER, buy, sell)
