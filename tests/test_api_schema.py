@@ -4,13 +4,15 @@ from pathlib import Path
 from tda import auth, client
 from dotenv import load_dotenv
 from schema import Schema, And, Use, Optional, SchemaError
-from portfolio import rebalance
 import unittest
 import os
-load_dotenv()
+import json
+
 
 # Constants
-ROOT_DIRECTORY = Path(__file__).parent.absolute()
+ROOT_DIRECTORY = Path(__file__).parents[1].absolute()
+load_dotenv()
+
 TD_KEY = os.getenv('CONSUMER_KEY')
 ACC_NUMBER = os.getenv('ACC_NUMBER')
 REDIRECT_URI = os.getenv('REDIRECT_URI')
@@ -24,19 +26,9 @@ TDA_CLIENT = auth.easy_client(
     token_path = TOKEN_PATH,
 )
 
-class TestPortfolioRebalance(unittest.TestCase):
+class TestTDAPI(unittest.TestCase):
 
-    def __init__(self, *args, **kwargs):
-        super(TestPortfolioRebalance, self).__init__(*args, **kwargs)
-
-        self.rebalance_portfolio = rebalance.rebalance_portfolio
-        self.get_account_info = rebalance.get_account_info
-
-    
-    def test_rebalance_portfolio(self):
-        pass
-
-    def test_get_account_info(self):
+    def test_account(self):
 
         acc_structure = Schema(
             {
@@ -59,6 +51,8 @@ class TestPortfolioRebalance(unittest.TestCase):
                                 'assetType': str,
                                 'cusip': str,
                                 'symbol': str,
+                                Optional('description'): str,
+                                Optional('type'): str,
                             },
                             'marketValue': float,
                             'maintenanceRequirement': float
@@ -114,10 +108,8 @@ class TestPortfolioRebalance(unittest.TestCase):
             }
         )
 
-        acc_structure.validate(self.get_account_info(TDA_CLIENT, ACC_NUMBER))
+        response = TDA_CLIENT.get_account(ACC_NUMBER, fields = TDA_CLIENT.Account.Fields.POSITIONS).json()
+        acc_structure.validate(response)
 
 if __name__ == '__main__':
     unittest.main()
-
-        
-    

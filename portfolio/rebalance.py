@@ -27,14 +27,12 @@ def get_webdriver(path = None):
 
 def get_account_info(client, acc_number, fields = None):
     response = client.get_account(acc_number, fields = fields).json()
-    print(json.dumps(response, indent = 4))
     return response
 
 def rebalance_portfolio(acc_bal, position, target):
     cur_val = acc_bal['liquidationValue']
     buy = defaultdict(int)
     sell = defaultdict(int)
-    #print(json.dumps(acc_bal, indent = 4))
 
     for item in position:
         ticker = item['instrument']['symbol']
