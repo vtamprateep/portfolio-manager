@@ -29,8 +29,7 @@ TDA_CLIENT = auth.easy_client(
 class TestTDAPI(unittest.TestCase):
 
     def test_account(self):
-
-        acc_structure = Schema(
+        ACC_STRUCTURE = Schema(
             {
                 'securitiesAccount': {
                     'type': str,
@@ -109,7 +108,67 @@ class TestTDAPI(unittest.TestCase):
         )
 
         response = TDA_CLIENT.get_account(ACC_NUMBER, fields = TDA_CLIENT.Account.Fields.POSITIONS).json()
-        acc_structure.validate(response)
+        ACC_STRUCTURE.validate(response)
+
+    def test_quotes(self):
+        QUOTE_STRUCTURE = Schema({
+            str: {
+                "assetType": str,
+                "assetMainType": str,
+                "cusip": str,
+                "assetSubType": str,
+                "symbol": str,
+                "description": str,
+                "bidPrice": float,
+                "bidSize": int,
+                "bidId": str,
+                "askPrice": float,
+                "askSize": int,
+                "askId": str,
+                "lastPrice": float,
+                "lastSize": int,
+                "lastId": str,
+                "openPrice": float,
+                "highPrice": float,
+                "lowPrice": float,
+                "bidTick": str,
+                "closePrice": float,
+                "netChange": float,
+                "totalVolume": int,
+                "quoteTimeInLong": int,
+                "tradeTimeInLong": int,
+                "mark": float,
+                "exchange": str,
+                "exchangeName": str,
+                "marginable": bool,
+                "shortable": bool,
+                "volatility": float,
+                "digits": int,
+                "52WkHigh": float,
+                "52WkLow": float,
+                "nAV": float,
+                "peRatio": float,
+                "divAmount": float,
+                "divYield": float,
+                "divDate": str,
+                "securityStatus": str,
+                "regularMarketLastPrice": float,
+                "regularMarketLastSize": int,
+                "regularMarketNetChange": float,
+                "regularMarketTradeTimeInLong": int,
+                "netPercentChangeInDouble": float,
+                "markChangeInDouble": float,
+                "markPercentChangeInDouble": float,
+                "regularMarketPercentChangeInDouble": float,
+                "delayed": bool
+            }
+        })
+
+        test_case = ['SPY', 'IWO']
+
+        for sym in test_case:
+            response = TDA_CLIENT.get_quote(sym).json()
+            QUOTE_STRUCTURE.validate(response)
 
 if __name__ == '__main__':
     unittest.main()

@@ -29,7 +29,11 @@ def get_account_info(client, acc_number, fields = None):
     response = client.get_account(acc_number, fields = fields).json()
     return response
 
-def rebalance_portfolio(acc_bal, position, target):
+def get_stock_quote(client, symbol):
+    price_quote = client.get_quote(symbol).json()
+    return price_quote
+
+def rebalance_portfolio(client, acc_bal, position, target):
     cur_val = acc_bal['liquidationValue']
     buy = defaultdict(int)
     sell = defaultdict(int)
@@ -37,7 +41,7 @@ def rebalance_portfolio(acc_bal, position, target):
     for item in position:
         ticker = item['instrument']['symbol']
         quantity = item['longQuantity']
-        price = item['marketValue'] / quantity
+        price = get_stock_quote(client, ticker)[ticker]['lastPrice']
 
         if ticker not in target:
             continue
@@ -81,11 +85,10 @@ if __name__ == '__main__':
     API_KEY = TD_KEY + '@AMER.OAUTHAP'
 
     # Connect client and get account info
-    client = connect_client(API_KEY, REDIRECT_URI, TOKEN_PATH, get_webdriver)
-    acc_info = get_account_info(client, ACC_NUMBER, client.Account.Fields.POSITIONS)['securitiesAccount']
+    CLIENT = connect_client(API_KEY, REDIRECT_URI, TOKEN_PATH, get_webdriver)
+    acc_info = get_account_info(CLIENT, ACC_NUMBER, CLIENT.Account.Fields.POSITIONS)['securitiesAccount']
 
     # Get buy, sell orders
-    buy, sell = rebalance_portfolio(acc_info['currentBalances'], acc_info['positions'], target_holding)
-
+    buy, sell = rebalance_portfolio(CLIENT, acc_info['currentBalances'], acc_info['positions'], target_holding)
     # Place orders
-    #place_orders(client, ACC_NUMBER, buy, sell)
+    place_orders(client, ACC_NUMBER, buy, sell)
