@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from selenium import webdriver
 from collections import defaultdict
 from pathlib import Path
-import requests
+import psycopg2
 import json
 import os
 
@@ -33,6 +33,21 @@ def get_stock_quote(client, symbol):
     price_quote = client.get_quote(symbol).json()
     return price_quote
 
+def get_stock_target(cursor):
+    query = '''
+        SELECT symbol, target
+        FROM holdings
+        WHERE target > 0;
+    '''
+    cursor.execute(query)
+    results = cursor.fetchall()
+    holdings = defaultdict(int)
+
+    for pair in results:
+        holdings[pair[0]] = pair[1]
+
+    return results
+
 def rebalance_portfolio(client, acc_bal, position, target):
     cur_val = acc_bal['liquidationValue']
     buy = defaultdict(int)
@@ -44,9 +59,9 @@ def rebalance_portfolio(client, acc_bal, position, target):
         price = get_stock_quote(client, ticker)[ticker]['lastPrice']
 
         if ticker not in target:
-            continue
-
-        adjust = cur_val * target[ticker] // price - quantity
+            adjust = - cur_val * target[ticker] // price
+        else:
+            adjust = cur_val * target[ticker] // price - quantity
 
         if adjust < 0:
             sell[ticker] = abs(adjust)
@@ -71,10 +86,6 @@ def place_orders(client, account_id, buy, sell):
 
 if __name__ == '__main__':
     load_dotenv()
-    target_holding = {
-        'SPY': 0.75,
-        'IWO': 0.25,
-    }
 
     # Get .env variables
     TD_KEY = os.getenv('CONSUMER_KEY')
@@ -84,11 +95,18 @@ if __name__ == '__main__':
     TOKEN_PATH = os.path.join(FOLDER_PATH, 'tokens/token.pickle')
     API_KEY = TD_KEY + '@AMER.OAUTHAP'
 
+    # Connect to securities database
+    conn = psycopg2.connect("dbname=securities user=postgres")
+    cur = conn.cursor()
+
     # Connect client and get account info
     CLIENT = connect_client(API_KEY, REDIRECT_URI, TOKEN_PATH, get_webdriver)
     acc_info = get_account_info(CLIENT, ACC_NUMBER, CLIENT.Account.Fields.POSITIONS)['securitiesAccount']
+    target_holding = get_stock_target(cur)
 
     # Get buy, sell orders
     buy, sell = rebalance_portfolio(CLIENT, acc_info['currentBalances'], acc_info['positions'], target_holding)
+    print(buy, sell)
+    
     # Place orders
     place_orders(client, ACC_NUMBER, buy, sell)
