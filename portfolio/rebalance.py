@@ -21,7 +21,7 @@ def connect_client(api_key, redirect_uri, token_path, webdriver_func):
 
 def get_webdriver(path = None):
     if not path:
-        path = Path(__file__).parents[1].absolute()
+        path = Path(__file__).resolve().parents[1].absolute()
         path = os.path.join(path, 'chromedriver')
     return webdriver.Chrome(path)
 
@@ -80,7 +80,7 @@ if __name__ == '__main__':
     TD_KEY = os.getenv('CONSUMER_KEY')
     ACC_NUMBER = os.getenv('ACC_NUMBER')
     REDIRECT_URI = os.getenv('REDIRECT_URI')
-    FOLDER_PATH = Path(__file__).parents[1].absolute()
+    FOLDER_PATH = Path(__file__).resolve().parents[1].absolute()
     TOKEN_PATH = os.path.join(FOLDER_PATH, 'tokens/token.pickle')
     API_KEY = TD_KEY + '@AMER.OAUTHAP'
 
