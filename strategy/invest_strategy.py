@@ -8,6 +8,15 @@ import json
 import os
 
 
+# Parent Class
+class BaseStrategy():
+    pass 
+    '''
+    TODO: Create parent class framework which strategies will be derived from
+    '''
+
+
+# Child classes
 class MomentumStrategy:
     def __init__(self, data):
         self.HOLDINGS = dict()
