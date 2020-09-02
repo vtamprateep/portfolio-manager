@@ -1,4 +1,3 @@
-import invest_strategy
 import math
 import scipy.stats as stats
 import pandas as pd
@@ -10,48 +9,45 @@ import json
 import os
 
 
-class TemplateIndicator(bt.Indicator):
-    lines = ('test_strategy',)
+class SimpleMovingAverageIndicator(bt.Indicator):
+    lines = ('sma_trend',)
+    params = {
+        'long_ma': None,
+        'short_ma': None,
+    }
 
-    # Pass arguments as normal to params
-    params = dict(
-        algo_fn = None,
-        period = None,
-    )
-
-    def __init__(self, sig_func = None):
-        self.addminperiod(self.params.period)
-        self._strat_fn = self.params.algo_fn
+    def __init__(self):
+        self.addminperiod(max(self.params.long_ma, self.params.short_ma))
+        self.period = max(self.params.long_ma, self.params.short_ma)
 
     def next(self):
-        self.lines.test_strategy[0] = self._strat_fn(self.data.get(size = self.params.period))
+        sma_long = np.mean(self.data.get(size = self.long_period))
+        sma_short = np.mean(self.data.get(size = self.short_period))
+        self.lines.sma[0] = sma_short - sma_long
 
-class TemplateStrategy(bt.Strategy):
 
-    params = dict(
-        test_indicator = None,
-        trade_freq = None,
-    )
+class SimpleMovingAverageStrategy(bt.Strategy):
+
+    params = {
+        'trade_freq': 9,
+    }
     
+    def log(self, txt, dt=None):
+        dt = dt or self.datas[0].datetime.date(0)
+        print('%s, %s' % (dt.isoformat(), txt))
+        
     def __init__(self):
-        self.data_close = self.datas[0].close
-        self.trade_freq = self.params.trade_freq or 1 # Default to daily
-        self.days = 0
-
+        self.dataclose = self.datas[0].close
         self.order = None
         self.buyprice = None
-        self.test_indicator = test_indicator
-
-    def log(self, text, dt = None):
-        dt = dt or self.datas[0].datetime.date(0)
-        print('%s, %s' % (dt.isoformat(), text))
-
+        
+        self.sma = SimpleMovingAverageIndicator(long_ma = 30, short_ma = 10)
+        self.days = 0
+        
     def notify_order(self, order):
-
-        # Prevent additional orders if exist outstanding
         if order.status in [order.Submitted, order.Accepted]:
             return
-
+        
         if order.status in [order.Completed]:
             if order.isbuy():
                 self.log(
@@ -69,12 +65,13 @@ class TemplateStrategy(bt.Strategy):
                         order.executed.comm,
                     )
                 )
-
+            self.bar_executed = len(self)
+            
         elif order.status in [order.Canceled, order.Margin, order.Rejected]:
             self.log('Order Canceled/Margin/Rejected')
 
         self.order = None
-
+        
     def notify_trade(self, trade):
         if not trade.isclosed:
             return
@@ -85,23 +82,21 @@ class TemplateStrategy(bt.Strategy):
                 trade.pnlcomm,
             )
         )
-
+        
     def next(self):
+            
         self.days += 1
-
+        self.log('Close, %.2f' % self.dataclose[0])
         if self.order:
             return
-
-        if self.days > self.trade_freq:
+        
+        if self.days > self.params.trade_freq - 1:
             self.days = 0
-
             if not self.position:
-
-                if self.test_indicator[0]:
+                if self.sma > 0:
                     self.log('BUY CREATE, %.2f' % self.dataclose[0])
                     self.order = self.buy()
-
-            else:
+            elif self.sma < 0:
                 self.log('SELL CREATE, %.2f' % self.dataclose[0])
                 self.order = self.sell()
 
