@@ -44,7 +44,5 @@ if __name__ == '__main__':
     simple_strategy = SimpleMovingAverage(cur)
     data = get_data(cur, simple_strategy.QUERY)
 
-    print(simple_strategy.get_signal(data))
-
     cur.close()
     conn.close()
