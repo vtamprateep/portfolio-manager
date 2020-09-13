@@ -1,217 +1,217 @@
 symbol,description,asset_type,main_type,quantity,target
-ISHG,iShares 1-3 Year International Treasury Bond ETF,ETF,EQUITY,0,0.0
-TLT,iShares 20+ Year Treasury Bond ETF,ETF,EQUITY,0,0.0
-IEI,iShares 3-7 Year Treasury Bond ETF,ETF,EQUITY,0,0.0
-IEF,iShares 7-10 Year Treasury Bond ETF,ETF,EQUITY,0,0.0
-USHY,iShares Broad USD High Yield Corporate Bond ETF,ETF,EQUITY,0,0.0
-USIG,iShares Broad USD Investment Grade Corporate Bond ETF,ETF,EQUITY,0,0.0
-ISTB,iShares Core 1-5 Year USD Bond ETF,ETF,EQUITY,0,0.0
-ILTB,iShares Core 10  Year USD Bond ETF,ETF,EQUITY,0,0.0
-IAF,Aberdeen Australia Equity Fund Inc Common Stock,EQUITY,EQUITY,0,0.0
-IAGG,iShares International Aggregate Bond Fund,ETF,EQUITY,0,0.0
-IEFA,iShares Core MSCI EAFE ETF,ETF,EQUITY,0,0.0
-IXUS,iShares Core MSCI Total International Stock ETF,ETF,EQUITY,0,0.0
-IVV,iShares Core S&P 500 ETF,ETF,EQUITY,0,0.0
-IJH,iShares Core S&P Mid-Cap ETF,ETF,EQUITY,0,0.0
-IJR,iShares Core S&P Small-Cap ETF,ETF,EQUITY,0,0.0
-ITOT,iShares Core S&P Total U.S. Stock Market ETF,ETF,EQUITY,0,0.0
-IUSV,iShares Core S&P U.S. Value ETF,ETF,EQUITY,0,0.0
-IUSB,iShares Core Total USD Bond Market ETF,ETF,EQUITY,0,0.0
-AGG,iShares Core U.S. Aggregate Bond ETF,ETF,EQUITY,0,0.0
-GOVT,iShares U.S. Treasury Bond ETF,ETF,EQUITY,0,0.0
-IYY,iShares Dow Jones U.S. ETF,ETF,EQUITY,0,0.0
-USMV,iShares MSCI USA Min Vol Factor ETF,ETF,EQUITY,0,0.0
-IEV,iShares Europe ETF,ETF,EQUITY,0,0.0
-MIDD,The Middleby Corporation - Common Stock,EQUITY,EQUITY,0,0.0
-CORP,Pimco Investment Grade Corporate Bond Index Exchange-Traded Fund,ETF,EQUITY,0,0.0
-HYLD,High Yield ETF,ETF,EQUITY,0,0.0
-HYG,iShares iBoxx $ High Yield Corporate Bond ETF,ETF,EQUITY,0,0.0
-LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,ETF,EQUITY,0,0.0
-GVI,iShares Intermediate Government/Credit Bond ETF,ETF,EQUITY,0,0.0
-IGOV,iShares International Treasury Bond ETF,ETF,EQUITY,0,0.0
-EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,ETF,EQUITY,0,0.0
-IWC,iShares Microcap ETF,ETF,EQUITY,0,0.0
-ACWI,iShares MSCI ACWI Index Fund,ETF,EQUITY,0,0.0
-CRBN,iShares MSCI ACWI Low Carbon Target ETF,ETF,EQUITY,0,0.0
-AAXJ,iShares MSCI All Country Asia ex Japan Index Fund,ETF,EQUITY,0,0.0
-ACWV,iShares MSCI Global Min Vol Factor ETF,ETF,EQUITY,0,0.0
-CNYA,iShares MSCI China A ETF,ETF,EQUITY,0,0.0
-EFA,iShares MSCI EAFE ETF,ETF,EQUITY,0,0.0
-SCZ,iShares MSCI EAFE Small-Cap ETF,ETF,EQUITY,0,0.0
-EEMV,iShares MSCI Emerging Markets Min Vol Factor ETF,ETF,EQUITY,0,0.0
-EEM,iShares MSCI Emerging Index Fund,ETF,EQUITY,0,0.0
-IEMG,iShares Core MSCI Emerging Markets ETF,ETF,EQUITY,0,0.0
-EZU,iShares MSCI Eurozone ETF,ETF,EQUITY,0,0.0
-EWJ,iShares MSCI Japan Index Fund,ETF,EQUITY,0,0.0
-DSI,iShares MSCI KLD 400 Social ETF,ETF,EQUITY,0,0.0
-URTH,Ishares MSCI World Index Fund,ETF,EQUITY,0,0.0
-JKH,iShares Morningstar Mid-Cap Growth ETF,ETF,EQUITY,0,0.0
-MUB,iShares National Muni Bond ETF,ETF,EQUITY,0,0.0
-IWB,iShares Russell 1000 ETF,ETF,EQUITY,0,0.0
-IWD,iShares Russell 1000 Value ETF,ETF,EQUITY,0,0.0
-IWM,iShares Russell 2000 ETF,ETF,EQUITY,0,0.0
-IWN,iShares Russell 2000 Value ETF,ETF,EQUITY,0,0.0
-IWV,iShares Russell 3000 ETF,ETF,EQUITY,0,0.0
-IWR,iShares Russell Mid-Cap ETF,ETF,EQUITY,0,0.0
-IWP,iShares Russell Midcap Growth ETF,ETF,EQUITY,0,0.0
-IWS,iShares Russell Mid-cap Value ETF,ETF,EQUITY,0,0.0
-IVE,iShares S&P 500 Value ETF,ETF,EQUITY,0,0.0
-IJK,iShares S&P Mid-Cap 400 Growth ETF,ETF,EQUITY,0,0.0
-IJJ,iShares S&P Mid-Cap 400 Value ETF,ETF,EQUITY,0,0.0
-IJT,iShares S&P Small-Cap 600 Growth ETF,ETF,EQUITY,0,0.0
-IJS,iShares S&P SmallCap 600 Value ETF,ETF,EQUITY,0,0.0
-DVY,iShares Select Dividend ETF,ETF,EQUITY,0,0.0
-SHV,iShares Short Treasury Bond ETF,ETF,EQUITY,0,0.0
-IGSB,iShares Short-Term Corporate Bond ETF,ETF,EQUITY,0,0.0
-SUB,iShares Short-Term National Muni Bond ETF,ETF,EQUITY,0,0.0
-TIP,iShares TIPS Bond ETF,ETF,EQUITY,0,0.0
-ICSH,iShares Ultra Short-Term Bond ETF,ETF,EQUITY,0,0.0
-PFF,iShares Preferred and Income Securities ETF,ETF,EQUITY,0,0.0
-BBSA,JPMorgan BetaBuilders 1-5 Year U.S. Aggregate Bond ETF,ETF,EQUITY,0,0.0
-BBEU,JPMorgan BetaBuilders Europe ETF,ETF,EQUITY,0,0.0
-BBJP,JPMorgan BetaBuilders Japan ETF,ETF,EQUITY,0,0.0
-BBUS,JPMorgan BetaBuilders U.S. Equity ETF,ETF,EQUITY,0,0.0
-JPHY,JPMorgan Research Enhanced High Yield ETF,ETF,EQUITY,0,0.0
-JPEM,JPMorgan Diversified Return Emerging Markets Equity ETF,ETF,EQUITY,0,0.0
-JPIN,JPMorgan Diversified Return International Equity ETF,ETF,EQUITY,0,0.0
-JPUS,JPMorgan Diversified Return U.S. Equity ETF,ETF,EQUITY,0,0.0
-JPME,JPMorgan Diversified Return U.S. Mid Cap Equity ETF,ETF,EQUITY,0,0.0
-JPSE,JPMorgan Diversified Return U.S. Small Cap Equity ETF,ETF,EQUITY,0,0.0
-JPGB,JPMorgan Global Bond Opportunities ETF,ETF,EQUITY,0,0.0
-JPST,JPMorgan Ultra-Short Income ETF,ETF,EQUITY,0,0.0
-JMST,JPMorgan Ultra-Short Municipal Income ETF,ETF,EQUITY,0,0.0
-JDIV,JPMorgan U.S. Dividend ETF,ETF,EQUITY,0,0.0
-JMIN,JPMorgan U.S. Minimum Volatility ETF,ETF,EQUITY,0,0.0
-JMOM,JPMorgan U.S. Momentum Factor ETF,ETF,EQUITY,0,0.0
-JQUA,JPMorgan U.S. Quality Factor ETF,ETF,EQUITY,0,0.0
-JVAL,JPMorgan U.S. Value Factor ETF,ETF,EQUITY,0,0.0
-JPMB,JPMorgan USD Emerging Markets Sovereign Bond ETF,ETF,EQUITY,0,0.0
-QUAL,iShares MSCI USA Quality Factor ETF,ETF,EQUITY,0,0.0
-ZROZ,PIMCO 25  Year Zero Coupon U.S. Treasury Index Exchange-Traded Fund,ETF,EQUITY,0,0.0
-MINT,PIMCO Enhanced Short Maturity Active Exchange-Traded Fund,ETF,EQUITY,0,0.0
-MFEM,PIMCO Equitiy Series PIMCO RAFI Dynamic Multi-Factor Emerging Markets Equity ETF,ETF,EQUITY,0,0.0
-MFDX,PIMCO Equitiy Series PIMCO RAFI Dynamic Multi-Factor International Equity ETF,ETF,EQUITY,0,0.0
-MFUS,PIMCO Equitiy Series PIMCO RAFI Dynamic Multi-Factor U.S. Equity ETF,ETF,EQUITY,0,0.0
-PLW,Invesco 1-30 Laddered Treasury ETF,ETF,EQUITY,0,0.0
-PGX,Invesco Preferred ETF,ETF,EQUITY,0,0.0
-BKLN,Invesco Senior Loan ETF,ETF,EQUITY,0,0.0
-SCHK,Schwab 1000 Index ETF,ETF,EQUITY,0,0.0
-SCHE,Schwab Emerging Markets Equity ETF,ETF,EQUITY,0,0.0
-FNDF,Schwab Fundamental International Large Company Index ETF,ETF,EQUITY,0,0.0
-FNDC,Schwab Fundamental International Small Company Index ETF,ETF,EQUITY,0,0.0
-FNDB,Schwab Fundamental U.S. Broad Market Index ETF,ETF,EQUITY,0,0.0
-FNDX,Schwab Fundamental U.S. Large Company Index ETF,ETF,EQUITY,0,0.0
-FNDA,Schwab Fundamental U.S. Small Company Index ETF,ETF,EQUITY,0,0.0
-SCHR,Schwab Intermediate-Term U.S. Treasury ETF,ETF,EQUITY,0,0.0
-SCHF,Schwab International Equity ETF,ETF,EQUITY,0,0.0
-SCHO,Schwab Short-Term U.S. Treasury ETF,ETF,EQUITY,0,0.0
-SCHP,Schwab U.S. TIPs ETF,ETF,EQUITY,0,0.0
-SCHZ,Schwab US Aggregate Bond ETF,ETF,EQUITY,0,0.0
-SCHB,Schwab U.S. Broad Market ETF,ETF,EQUITY,0,0.0
-SCHX,Schwab U.S. Large-Cap ETF,ETF,EQUITY,0,0.0
-SCHV,Schwab U.S. Large-Cap Value ETF,ETF,EQUITY,0,0.0
-SCHM,Schwab U.S. Mid Cap ETF,ETF,EQUITY,0,0.0
-SCHA,Schwab U.S. Small-Cap ETF,ETF,EQUITY,0,0.0
-BIL,SPDR Bloomberg Barclays 1-3 Month T-Bill ETF,ETF,EQUITY,0,0.0
-EBND,SPDR Bloomberg Barclays Emerging Markets Local Bond ETF,ETF,EQUITY,0,0.0
-JNK,SPDR Bloomberg Barclays High Yield Bond ETF,ETF,EQUITY,0,0.0
-BWZ,SPDR Bloomberg Barclays Short Term International Treasury Bond ETF,ETF,EQUITY,0,0.0
-BWX,SPDR Bloomberg Barclays Intl Treasury Bd,ETF,EQUITY,0,0.0
-SHM,SPDR Nuveen Bloomberg Barclays Short Term Municipal Bond ETF,ETF,EQUITY,0,0.0
-TOTL,SPDR DoubleLine Total Return Tactical ETF,ETF,EQUITY,0,0.0
-SPIB,SPDR Portfolio Intermediate Term Corporate Bond ETF,ETF,EQUITY,0,0.0
-SPTL,SPDR Portfolio Long Term Treasury ETF,ETF,EQUITY,0,0.0
-SPTS,SPDR Portfolio Short Term Treasury ETF,ETF,EQUITY,0,0.0
-SPSM,SPDR Portfolio S&P 600 Small Cap ETF,ETF,EQUITY,0,0.0
-SPLG,SPDR Portfolio S&P 500 ETF,ETF,EQUITY,0,0.0
-SPTM,SPDR Portfolio S&P 1500 Composite Stock Market ETF,ETF,EQUITY,0,0.0
-SPDW,SPDR Portfolio Developed World ex-US ETF,ETF,EQUITY,0,0.0
-MDYG,SPDR S&P 400 Mid Cap Growth ETF (based on S&P MidCap 400 Growth Index--symbol: M,ETF,EQUITY,0,0.0
-MDYV,SPDR S&P 400 Mid Cap Value ETF (based on S&P MidCap 400 Value Index--symbol: MGD,ETF,EQUITY,0,0.0
-VBK,Vanguard Small-Cap Growth ETF,ETF,EQUITY,0,0.0
-VBR,Vanguard Small-Cap Value ETF,ETF,EQUITY,0,0.0
-BND,Vanguard Total Bond Market ETF,ETF,EQUITY,0,0.0
-BNDX,Vanguard Total International Bond ETF,ETF,EQUITY,0,0.0
-VXUS,Vanguard Total International Stock ETF,ETF,EQUITY,0,0.0
-VTI,Vanguard Total Stock Market ETF,ETF,EQUITY,0,0.0
-BNDW,Vanguard Total World Bond ETF,ETF,EQUITY,0,0.0
-VT,Vanguard Total World Stock Index ETF,ETF,EQUITY,0,0.0
-VFLQ,Vanguard U.S. Liquidity Factor ETF,ETF,EQUITY,0,0.0
-VFMO,Vanguard U.S. Momentum Factor ETF,ETF,EQUITY,0,0.0
-VFMF,Vanguard U.S. Multifactor ETF,ETF,EQUITY,0,0.0
-VFQY,Vanguard U.S. Quality Factor ETF,ETF,EQUITY,0,0.0
-VFVA,Vanguard U.S. Value Factor ETF,ETF,EQUITY,0,0.0
-VTV,Vanguard Value ETF,ETF,EQUITY,0,0.0
-RESE,WisdomTree Emerging Markets ESG Fund,ETF,EQUITY,0,0.0
-DEM,WisdomTree Emerging Markets High Dividend Fund,ETF,EQUITY,0,0.0
-DXJS,WisdomTree Japan Hedged SmallCap Equity Fund,ETF,EQUITY,0,0.0
-DON,WisdomTree U.S. MidCap Dividend Fund,ETF,EQUITY,0,0.0
-DES,WisdomTree U.S. SmallCap Dividend Fund,ETF,EQUITY,0,0.0
-IWO,iShares Russell 2000 Growth ETF,ETF,EQUITY,5,0.25
-SPY,SPDR S&P 500,ETF,EQUITY,10,0.75
-QUS,SPDR MSCI USA StrategicFactors ETF,ETF,EQUITY,0,0.0
-GVAL,Cambria Global Value ETF,ETF,EQUITY,0,0.0
-IEUR,iShares Core MSCI Europe ETF,ETF,EQUITY,0,0.0
-ASHR,Xtrackers Harvest CSI 300 China A-Shares ETF,ETF,EQUITY,0,0.0
-ASHS,Xtrackers Harvest CSI 500 China A-Shares Small Cap ETF,ETF,EQUITY,0,0.0
-FCOR,Fidelity Corporate Bond ETF,ETF,EQUITY,0,0.0
-FLTB,Fidelity Limited Term Bond ETF,ETF,EQUITY,0,0.0
-FDLO,Fidelity Low Volatility Factor ETF,ETF,EQUITY,0,0.0
-FBND,Fidelity Total Bond ETF,ETF,EQUITY,0,0.0
-FTC,First Trust Large Cap Growth AlphaDEX Fund,ETF,EQUITY,0,0.0
-GEM,Goldman Sachs ActiveBeta Emerging Markets Equity ETF,ETF,EQUITY,0,0.0
-RSP,Invesco S&P 500 Equal Weight ETF,ETF,EQUITY,0,0.0
-RPG,Invesco S&P 500 Pure Growth ETF,ETF,EQUITY,0,0.0
-BSCP,Invesco BulletShares 2025 Corporate Bond ETF,ETF,EQUITY,0,0.0
-BSCR,Invesco BulletShares 2027 Corporate Bond ETF,ETF,EQUITY,0,0.0
-BSCS,Invesco BulletShares 2028 Corporate Bond ETF,ETF,EQUITY,0,0.0
-PIE,Invesco DWA Emerging Markets Momentum ETF,ETF,EQUITY,0,0.0
-PCY,Invesco Emerging Markets Sovereign Debt ETF,ETF,EQUITY,0,0.0
-PXF,Invesco FTSE RAFI Developed Markets ex-U.S. ETF,ETF,EQUITY,0,0.0
-EQAL,Invesco Russell 1000 Equal Weight ETF,ETF,EQUITY,0,0.0
-SPLV,Invesco S&P 500 Low Volatility ETF,ETF,EQUITY,0,0.0
-FLOT,iShares Floating Rate Bond ETF,ETF,EQUITY,0,0.0
-SHYG,iShares 0-5 Year High Yield Corporate Bond ETF,ETF,EQUITY,0,0.0
-SLQD,iShares 0-5 Year Investment Grade Corporate Bond ETF,ETF,EQUITY,0,0.0
-STIP,iShares 0-5 Year TIPS Bond ETF,ETF,EQUITY,0,0.0
-TLH,iShares 10-20 Year Treasury Bond ETF,ETF,EQUITY,0,0.0
-SHY,iShares 1-3 Year Treasury Bond ETF,ETF,EQUITY,0,0.0
-EFV,iShares MSCI EAFE Value ETF,ETF,EQUITY,0,0.0
-SPYV,SPDR Series Trust SPDR Portfolio S&P 500 Value ETF,ETF,EQUITY,0,0.0
-SLYG,SPDR S&P 600 Small Cap Growth ETF (based on S&P SmallCap 600 Growth Index --symb,ETF,EQUITY,0,0.0
-SLYV,SPDR S&P 600 Small Cap Value ETF (based on S&P SmallCap Value Index--symbol--CVK,ETF,EQUITY,0,0.0
-SDY,SPDR S&P Dividend ETF,ETF,EQUITY,0,0.0
-GMF,SPDR S&P Emerging Asia Pacific ETF,ETF,EQUITY,0,0.0
-WDIV,SPDR S&P Global Dividend,ETF,EQUITY,0,0.0
-DWX,SPDR S&P International Dividend ETF,ETF,EQUITY,0,0.0
-GWX,SPDR S&P International SmallCap ETF,ETF,EQUITY,0,0.0
-MDY,SPDR MidCap Trust Series I,ETF,EQUITY,0,0.0
-HYD,VanEck Vectors High Yield Municipal Index ETF,ETF,EQUITY,0,0.0
-EMLC,VanEck Vectors J.P. Morgan EM Local Currency Bond ETF,ETF,EQUITY,0,0.0
-SHYD,VanEck Vectors Short High-Yield Municipal Index ETF,ETF,EQUITY,0,0.0
-VIG,Vanguard Div Appreciation ETF,ETF,EQUITY,0,0.0
-EDV,Vanguard Extended Duration Treasury ETF,ETF,EQUITY,0,0.0
-VXF,Vanguard Extended Market ETF,ETF,EQUITY,0,0.0
-VEU,Vanguard FTSE All World Ex US ETF,ETF,EQUITY,0,0.0
-VWO,Vanguard FTSE Emerging Markets ETF,ETF,EQUITY,0,0.0
-VGK,Vanguard FTSEEuropean ETF,ETF,EQUITY,0,0.0
-VEA,Vanguard FTSE Developed Markets ETF,ETF,EQUITY,0,0.0
-VPL,Vanguard FTSE Pacific ETF,ETF,EQUITY,0,0.0
-VYM,Vanguard High Dividend Yield ETF,ETF,EQUITY,0,0.0
-VGIT,Vanguard Intermediate-Term Treasury ETF,ETF,EQUITY,0,0.0
-VV,Vanguard Large-Cap ETF,ETF,EQUITY,0,0.0
-BLV,Vanguard Long-Term Bond ETF,ETF,EQUITY,0,0.0
-VGLT,Vanguard Long-Treasury ETF,ETF,EQUITY,0,0.0
-VO,Vanguard Mid-Cap ETF,ETF,EQUITY,0,0.0
-VOT,Vanguard Mid-Cap Growth ETF,ETF,EQUITY,0,0.0
-VOE,Vanguard Mid-Cap Value ETF,ETF,EQUITY,0,0.0
-VTWO,Vanguard Russell 2000 ETF,ETF,EQUITY,0,0.0
-VOO,Vanguard S&P 500 ETF,ETF,EQUITY,0,0.0
-VOOV,Vanguard S&P 500 Value ETF,ETF,EQUITY,0,0.0
-IVOO,Vanguard S&P Mid-Cap 400 ETF,ETF,EQUITY,0,0.0
-IVOG,Vanguard S&P Mid-Cap 400 Growth ETF,ETF,EQUITY,0,0.0
-VIOO,Vanguard S&P Small-Cap 600 ETF,ETF,EQUITY,0,0.0
-BSV,Vanguard Short-Term Bond ETF,ETF,EQUITY,0,0.0
-VGSH,Vanguard Short-Term Treasury ETF,ETF,EQUITY,0,0.0
-VTIP,Vanguard Short-Term Inflation-Protected Securities Index Fund,ETF,EQUITY,0,0.0
-VB,Vanguard Small-Cap ETF,ETF,EQUITY,0,0.0
+ISHG,iShares 1-3 Year International Treasury Bond ETF,ETF,EQUITY,0,0
+TLT,iShares 20+ Year Treasury Bond ETF,ETF,EQUITY,0,0
+IEI,iShares 3-7 Year Treasury Bond ETF,ETF,EQUITY,0,0
+IEF,iShares 7-10 Year Treasury Bond ETF,ETF,EQUITY,0,0
+USHY,iShares Broad USD High Yield Corporate Bond ETF,ETF,EQUITY,0,0
+USIG,iShares Broad USD Investment Grade Corporate Bond ETF,ETF,EQUITY,0,0
+ISTB,iShares Core 1-5 Year USD Bond ETF,ETF,EQUITY,0,0
+ILTB,iShares Core 10  Year USD Bond ETF,ETF,EQUITY,0,0
+IAF,Aberdeen Australia Equity Fund Inc Common Stock,EQUITY,EQUITY,0,0
+IAGG,iShares International Aggregate Bond Fund,ETF,EQUITY,0,0
+IEFA,iShares Core MSCI EAFE ETF,ETF,EQUITY,0,0
+IXUS,iShares Core MSCI Total International Stock ETF,ETF,EQUITY,0,0
+IVV,iShares Core S&P 500 ETF,ETF,EQUITY,0,0
+IJH,iShares Core S&P Mid-Cap ETF,ETF,EQUITY,0,0
+IJR,iShares Core S&P Small-Cap ETF,ETF,EQUITY,0,0
+ITOT,iShares Core S&P Total U.S. Stock Market ETF,ETF,EQUITY,0,0
+IUSV,iShares Core S&P U.S. Value ETF,ETF,EQUITY,0,0
+IUSB,iShares Core Total USD Bond Market ETF,ETF,EQUITY,0,0
+AGG,iShares Core U.S. Aggregate Bond ETF,ETF,EQUITY,0,0
+GOVT,iShares U.S. Treasury Bond ETF,ETF,EQUITY,0,0
+IYY,iShares Dow Jones U.S. ETF,ETF,EQUITY,0,0
+USMV,iShares MSCI USA Min Vol Factor ETF,ETF,EQUITY,0,0
+IEV,iShares Europe ETF,ETF,EQUITY,0,0
+MIDD,The Middleby Corporation - Common Stock,EQUITY,EQUITY,0,0
+CORP,Pimco Investment Grade Corporate Bond Index Exchange-Traded Fund,ETF,EQUITY,0,0
+HYLD,High Yield ETF,ETF,EQUITY,0,0
+HYG,iShares iBoxx $ High Yield Corporate Bond ETF,ETF,EQUITY,0,0
+LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,ETF,EQUITY,0,0
+GVI,iShares Intermediate Government/Credit Bond ETF,ETF,EQUITY,0,0
+IGOV,iShares International Treasury Bond ETF,ETF,EQUITY,0,0
+EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,ETF,EQUITY,0,0
+IWC,iShares Microcap ETF,ETF,EQUITY,0,0
+ACWI,iShares MSCI ACWI Index Fund,ETF,EQUITY,0,0
+CRBN,iShares MSCI ACWI Low Carbon Target ETF,ETF,EQUITY,0,0
+AAXJ,iShares MSCI All Country Asia ex Japan Index Fund,ETF,EQUITY,0,0
+ACWV,iShares MSCI Global Min Vol Factor ETF,ETF,EQUITY,0,0
+CNYA,iShares MSCI China A ETF,ETF,EQUITY,0,0
+EFA,iShares MSCI EAFE ETF,ETF,EQUITY,0,0
+SCZ,iShares MSCI EAFE Small-Cap ETF,ETF,EQUITY,0,0
+EEMV,iShares MSCI Emerging Markets Min Vol Factor ETF,ETF,EQUITY,0,0
+EEM,iShares MSCI Emerging Index Fund,ETF,EQUITY,0,0
+IEMG,iShares Core MSCI Emerging Markets ETF,ETF,EQUITY,0,0
+EZU,iShares MSCI Eurozone ETF,ETF,EQUITY,0,0
+EWJ,iShares MSCI Japan Index Fund,ETF,EQUITY,0,0
+DSI,iShares MSCI KLD 400 Social ETF,ETF,EQUITY,0,0
+URTH,Ishares MSCI World Index Fund,ETF,EQUITY,0,0
+JKH,iShares Morningstar Mid-Cap Growth ETF,ETF,EQUITY,0,0
+MUB,iShares National Muni Bond ETF,ETF,EQUITY,0,0
+IWB,iShares Russell 1000 ETF,ETF,EQUITY,0,0
+IWD,iShares Russell 1000 Value ETF,ETF,EQUITY,0,0
+IWM,iShares Russell 2000 ETF,ETF,EQUITY,0,0
+IWN,iShares Russell 2000 Value ETF,ETF,EQUITY,0,0
+IWV,iShares Russell 3000 ETF,ETF,EQUITY,0,0
+IWR,iShares Russell Mid-Cap ETF,ETF,EQUITY,0,0
+IWP,iShares Russell Midcap Growth ETF,ETF,EQUITY,0,0
+IWS,iShares Russell Mid-cap Value ETF,ETF,EQUITY,0,0
+IVE,iShares S&P 500 Value ETF,ETF,EQUITY,0,0
+IJK,iShares S&P Mid-Cap 400 Growth ETF,ETF,EQUITY,0,0
+IJJ,iShares S&P Mid-Cap 400 Value ETF,ETF,EQUITY,0,0
+IJT,iShares S&P Small-Cap 600 Growth ETF,ETF,EQUITY,0,0
+IJS,iShares S&P SmallCap 600 Value ETF,ETF,EQUITY,0,0
+DVY,iShares Select Dividend ETF,ETF,EQUITY,0,0
+SHV,iShares Short Treasury Bond ETF,ETF,EQUITY,0,0
+IGSB,iShares Short-Term Corporate Bond ETF,ETF,EQUITY,0,0
+SUB,iShares Short-Term National Muni Bond ETF,ETF,EQUITY,0,0
+TIP,iShares TIPS Bond ETF,ETF,EQUITY,0,0
+ICSH,iShares Ultra Short-Term Bond ETF,ETF,EQUITY,0,0
+PFF,iShares Preferred and Income Securities ETF,ETF,EQUITY,0,0
+BBSA,JPMorgan BetaBuilders 1-5 Year U.S. Aggregate Bond ETF,ETF,EQUITY,0,0
+BBEU,JPMorgan BetaBuilders Europe ETF,ETF,EQUITY,0,0
+BBJP,JPMorgan BetaBuilders Japan ETF,ETF,EQUITY,0,0
+BBUS,JPMorgan BetaBuilders U.S. Equity ETF,ETF,EQUITY,0,0
+JPHY,JPMorgan Research Enhanced High Yield ETF,ETF,EQUITY,0,0
+JPEM,JPMorgan Diversified Return Emerging Markets Equity ETF,ETF,EQUITY,0,0
+JPIN,JPMorgan Diversified Return International Equity ETF,ETF,EQUITY,0,0
+JPUS,JPMorgan Diversified Return U.S. Equity ETF,ETF,EQUITY,0,0
+JPME,JPMorgan Diversified Return U.S. Mid Cap Equity ETF,ETF,EQUITY,0,0
+JPSE,JPMorgan Diversified Return U.S. Small Cap Equity ETF,ETF,EQUITY,0,0
+JPGB,JPMorgan Global Bond Opportunities ETF,ETF,EQUITY,0,0
+JPST,JPMorgan Ultra-Short Income ETF,ETF,EQUITY,0,0
+JMST,JPMorgan Ultra-Short Municipal Income ETF,ETF,EQUITY,0,0
+JDIV,JPMorgan U.S. Dividend ETF,ETF,EQUITY,0,0
+JMIN,JPMorgan U.S. Minimum Volatility ETF,ETF,EQUITY,0,0
+JMOM,JPMorgan U.S. Momentum Factor ETF,ETF,EQUITY,0,0
+JQUA,JPMorgan U.S. Quality Factor ETF,ETF,EQUITY,0,0
+JVAL,JPMorgan U.S. Value Factor ETF,ETF,EQUITY,0,0
+JPMB,JPMorgan USD Emerging Markets Sovereign Bond ETF,ETF,EQUITY,0,0
+QUAL,iShares MSCI USA Quality Factor ETF,ETF,EQUITY,0,0
+ZROZ,PIMCO 25  Year Zero Coupon U.S. Treasury Index Exchange-Traded Fund,ETF,EQUITY,0,0
+MINT,PIMCO Enhanced Short Maturity Active Exchange-Traded Fund,ETF,EQUITY,0,0
+MFEM,PIMCO Equitiy Series PIMCO RAFI Dynamic Multi-Factor Emerging Markets Equity ETF,ETF,EQUITY,0,0
+MFDX,PIMCO Equitiy Series PIMCO RAFI Dynamic Multi-Factor International Equity ETF,ETF,EQUITY,0,0
+MFUS,PIMCO Equitiy Series PIMCO RAFI Dynamic Multi-Factor U.S. Equity ETF,ETF,EQUITY,0,0
+PLW,Invesco 1-30 Laddered Treasury ETF,ETF,EQUITY,0,0
+PGX,Invesco Preferred ETF,ETF,EQUITY,0,0
+BKLN,Invesco Senior Loan ETF,ETF,EQUITY,0,0
+SCHK,Schwab 1000 Index ETF,ETF,EQUITY,0,0
+SCHE,Schwab Emerging Markets Equity ETF,ETF,EQUITY,0,0
+FNDF,Schwab Fundamental International Large Company Index ETF,ETF,EQUITY,0,0
+FNDC,Schwab Fundamental International Small Company Index ETF,ETF,EQUITY,0,0
+FNDB,Schwab Fundamental U.S. Broad Market Index ETF,ETF,EQUITY,0,0
+FNDX,Schwab Fundamental U.S. Large Company Index ETF,ETF,EQUITY,0,0
+FNDA,Schwab Fundamental U.S. Small Company Index ETF,ETF,EQUITY,0,0
+SCHR,Schwab Intermediate-Term U.S. Treasury ETF,ETF,EQUITY,0,0
+SCHF,Schwab International Equity ETF,ETF,EQUITY,0,0
+SCHO,Schwab Short-Term U.S. Treasury ETF,ETF,EQUITY,0,0
+SCHP,Schwab U.S. TIPs ETF,ETF,EQUITY,0,0
+SCHZ,Schwab US Aggregate Bond ETF,ETF,EQUITY,0,0
+SCHB,Schwab U.S. Broad Market ETF,ETF,EQUITY,0,0
+SCHX,Schwab U.S. Large-Cap ETF,ETF,EQUITY,0,0
+SCHV,Schwab U.S. Large-Cap Value ETF,ETF,EQUITY,0,0
+SCHM,Schwab U.S. Mid Cap ETF,ETF,EQUITY,0,0
+SCHA,Schwab U.S. Small-Cap ETF,ETF,EQUITY,0,0
+BIL,SPDR Bloomberg Barclays 1-3 Month T-Bill ETF,ETF,EQUITY,0,0
+EBND,SPDR Bloomberg Barclays Emerging Markets Local Bond ETF,ETF,EQUITY,0,0
+JNK,SPDR Bloomberg Barclays High Yield Bond ETF,ETF,EQUITY,0,0
+BWZ,SPDR Bloomberg Barclays Short Term International Treasury Bond ETF,ETF,EQUITY,0,0
+BWX,SPDR Bloomberg Barclays Intl Treasury Bd,ETF,EQUITY,0,0
+SHM,SPDR Nuveen Bloomberg Barclays Short Term Municipal Bond ETF,ETF,EQUITY,0,0
+TOTL,SPDR DoubleLine Total Return Tactical ETF,ETF,EQUITY,0,0
+SPIB,SPDR Portfolio Intermediate Term Corporate Bond ETF,ETF,EQUITY,0,0
+SPTL,SPDR Portfolio Long Term Treasury ETF,ETF,EQUITY,0,0
+SPTS,SPDR Portfolio Short Term Treasury ETF,ETF,EQUITY,0,0
+SPSM,SPDR Portfolio S&P 600 Small Cap ETF,ETF,EQUITY,0,0
+SPLG,SPDR Portfolio S&P 500 ETF,ETF,EQUITY,0,0
+SPTM,SPDR Portfolio S&P 1500 Composite Stock Market ETF,ETF,EQUITY,0,0
+SPDW,SPDR Portfolio Developed World ex-US ETF,ETF,EQUITY,0,0
+MDYG,SPDR S&P 400 Mid Cap Growth ETF (based on S&P MidCap 400 Growth Index--symbol: M,ETF,EQUITY,0,0
+MDYV,SPDR S&P 400 Mid Cap Value ETF (based on S&P MidCap 400 Value Index--symbol: MGD,ETF,EQUITY,0,0
+VBK,Vanguard Small-Cap Growth ETF,ETF,EQUITY,0,0
+VBR,Vanguard Small-Cap Value ETF,ETF,EQUITY,0,0
+BND,Vanguard Total Bond Market ETF,ETF,EQUITY,0,0
+BNDX,Vanguard Total International Bond ETF,ETF,EQUITY,0,0
+VXUS,Vanguard Total International Stock ETF,ETF,EQUITY,0,0
+VTI,Vanguard Total Stock Market ETF,ETF,EQUITY,0,0
+BNDW,Vanguard Total World Bond ETF,ETF,EQUITY,0,0
+VT,Vanguard Total World Stock Index ETF,ETF,EQUITY,0,0
+VFLQ,Vanguard U.S. Liquidity Factor ETF,ETF,EQUITY,0,0
+VFMO,Vanguard U.S. Momentum Factor ETF,ETF,EQUITY,0,0
+VFMF,Vanguard U.S. Multifactor ETF,ETF,EQUITY,0,0
+VFQY,Vanguard U.S. Quality Factor ETF,ETF,EQUITY,0,0
+VFVA,Vanguard U.S. Value Factor ETF,ETF,EQUITY,0,0
+VTV,Vanguard Value ETF,ETF,EQUITY,0,0
+RESE,WisdomTree Emerging Markets ESG Fund,ETF,EQUITY,0,0
+DEM,WisdomTree Emerging Markets High Dividend Fund,ETF,EQUITY,0,0
+DXJS,WisdomTree Japan Hedged SmallCap Equity Fund,ETF,EQUITY,0,0
+DON,WisdomTree U.S. MidCap Dividend Fund,ETF,EQUITY,0,0
+DES,WisdomTree U.S. SmallCap Dividend Fund,ETF,EQUITY,0,0
+IWO,iShares Russell 2000 Growth ETF,ETF,EQUITY,0,0
+SPY,SPDR S&P 500,ETF,EQUITY,0,0
+QUS,SPDR MSCI USA StrategicFactors ETF,ETF,EQUITY,0,0
+GVAL,Cambria Global Value ETF,ETF,EQUITY,0,0
+IEUR,iShares Core MSCI Europe ETF,ETF,EQUITY,0,0
+ASHR,Xtrackers Harvest CSI 300 China A-Shares ETF,ETF,EQUITY,0,0
+ASHS,Xtrackers Harvest CSI 500 China A-Shares Small Cap ETF,ETF,EQUITY,0,0
+FCOR,Fidelity Corporate Bond ETF,ETF,EQUITY,0,0
+FLTB,Fidelity Limited Term Bond ETF,ETF,EQUITY,0,0
+FDLO,Fidelity Low Volatility Factor ETF,ETF,EQUITY,0,0
+FBND,Fidelity Total Bond ETF,ETF,EQUITY,0,0
+FTC,First Trust Large Cap Growth AlphaDEX Fund,ETF,EQUITY,0,0
+GEM,Goldman Sachs ActiveBeta Emerging Markets Equity ETF,ETF,EQUITY,0,0
+RSP,Invesco S&P 500 Equal Weight ETF,ETF,EQUITY,0,0
+RPG,Invesco S&P 500 Pure Growth ETF,ETF,EQUITY,0,0
+BSCP,Invesco BulletShares 2025 Corporate Bond ETF,ETF,EQUITY,0,0
+BSCR,Invesco BulletShares 2027 Corporate Bond ETF,ETF,EQUITY,0,0
+BSCS,Invesco BulletShares 2028 Corporate Bond ETF,ETF,EQUITY,0,0
+PIE,Invesco DWA Emerging Markets Momentum ETF,ETF,EQUITY,0,0
+PCY,Invesco Emerging Markets Sovereign Debt ETF,ETF,EQUITY,0,0
+PXF,Invesco FTSE RAFI Developed Markets ex-U.S. ETF,ETF,EQUITY,0,0
+EQAL,Invesco Russell 1000 Equal Weight ETF,ETF,EQUITY,0,0
+SPLV,Invesco S&P 500 Low Volatility ETF,ETF,EQUITY,0,0
+FLOT,iShares Floating Rate Bond ETF,ETF,EQUITY,0,0
+SHYG,iShares 0-5 Year High Yield Corporate Bond ETF,ETF,EQUITY,0,0
+SLQD,iShares 0-5 Year Investment Grade Corporate Bond ETF,ETF,EQUITY,0,0
+STIP,iShares 0-5 Year TIPS Bond ETF,ETF,EQUITY,0,0
+TLH,iShares 10-20 Year Treasury Bond ETF,ETF,EQUITY,0,0
+SHY,iShares 1-3 Year Treasury Bond ETF,ETF,EQUITY,0,0
+EFV,iShares MSCI EAFE Value ETF,ETF,EQUITY,0,0
+SPYV,SPDR Series Trust SPDR Portfolio S&P 500 Value ETF,ETF,EQUITY,0,0
+SLYG,SPDR S&P 600 Small Cap Growth ETF (based on S&P SmallCap 600 Growth Index --symb,ETF,EQUITY,0,0
+SLYV,SPDR S&P 600 Small Cap Value ETF (based on S&P SmallCap Value Index--symbol--CVK,ETF,EQUITY,0,0
+SDY,SPDR S&P Dividend ETF,ETF,EQUITY,0,0
+GMF,SPDR S&P Emerging Asia Pacific ETF,ETF,EQUITY,0,0
+WDIV,SPDR S&P Global Dividend,ETF,EQUITY,0,0
+DWX,SPDR S&P International Dividend ETF,ETF,EQUITY,0,0
+GWX,SPDR S&P International SmallCap ETF,ETF,EQUITY,0,0
+MDY,SPDR MidCap Trust Series I,ETF,EQUITY,0,0
+HYD,VanEck Vectors High Yield Municipal Index ETF,ETF,EQUITY,0,0
+EMLC,VanEck Vectors J.P. Morgan EM Local Currency Bond ETF,ETF,EQUITY,0,0
+SHYD,VanEck Vectors Short High-Yield Municipal Index ETF,ETF,EQUITY,0,0
+VIG,Vanguard Div Appreciation ETF,ETF,EQUITY,0,0
+EDV,Vanguard Extended Duration Treasury ETF,ETF,EQUITY,0,0
+VXF,Vanguard Extended Market ETF,ETF,EQUITY,0,0
+VEU,Vanguard FTSE All World Ex US ETF,ETF,EQUITY,0,0
+VWO,Vanguard FTSE Emerging Markets ETF,ETF,EQUITY,0,0
+VGK,Vanguard FTSEEuropean ETF,ETF,EQUITY,0,0
+VEA,Vanguard FTSE Developed Markets ETF,ETF,EQUITY,0,0
+VPL,Vanguard FTSE Pacific ETF,ETF,EQUITY,0,0
+VYM,Vanguard High Dividend Yield ETF,ETF,EQUITY,0,0
+VGIT,Vanguard Intermediate-Term Treasury ETF,ETF,EQUITY,0,0
+VV,Vanguard Large-Cap ETF,ETF,EQUITY,0,0
+BLV,Vanguard Long-Term Bond ETF,ETF,EQUITY,0,0
+VGLT,Vanguard Long-Treasury ETF,ETF,EQUITY,0,0
+VO,Vanguard Mid-Cap ETF,ETF,EQUITY,0,0
+VOT,Vanguard Mid-Cap Growth ETF,ETF,EQUITY,0,0
+VOE,Vanguard Mid-Cap Value ETF,ETF,EQUITY,0,0
+VTWO,Vanguard Russell 2000 ETF,ETF,EQUITY,0,0
+VOO,Vanguard S&P 500 ETF,ETF,EQUITY,0,0
+VOOV,Vanguard S&P 500 Value ETF,ETF,EQUITY,0,0
+IVOO,Vanguard S&P Mid-Cap 400 ETF,ETF,EQUITY,0,0
+IVOG,Vanguard S&P Mid-Cap 400 Growth ETF,ETF,EQUITY,0,0
+VIOO,Vanguard S&P Small-Cap 600 ETF,ETF,EQUITY,0,0
+BSV,Vanguard Short-Term Bond ETF,ETF,EQUITY,0,0
+VGSH,Vanguard Short-Term Treasury ETF,ETF,EQUITY,0,0
+VTIP,Vanguard Short-Term Inflation-Protected Securities Index Fund,ETF,EQUITY,0,0
+VB,Vanguard Small-Cap ETF,ETF,EQUITY,0,0

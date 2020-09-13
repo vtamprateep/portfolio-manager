@@ -21,3 +21,4 @@ CREATE TABLE securities_prices (
 
 /* POPULATE SECURITIES_HOLDING TABLE */
 
+\COPY securities_holding FROM './pop_securities.csv' CSV HEADER;
