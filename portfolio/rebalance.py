@@ -91,4 +91,4 @@ if __name__ == '__main__':
     # Get buy, sell orders
     buy, sell = rebalance_portfolio(CLIENT, acc_info['currentBalances'], acc_info['positions'], target_holding)
     # Place orders
-    place_orders(client, ACC_NUMBER, buy, sell)
+    place_orders(CLIENT, ACC_NUMBER, buy, sell)
