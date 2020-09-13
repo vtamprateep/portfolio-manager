@@ -46,7 +46,7 @@ def get_stock_target(cursor):
     for pair in results:
         holdings[pair[0]] = pair[1]
 
-    return results
+    return holdings
 
 def rebalance_portfolio(client, acc_bal, position, target):
     cur_val = acc_bal['liquidationValue']
@@ -59,7 +59,7 @@ def rebalance_portfolio(client, acc_bal, position, target):
         price = get_stock_quote(client, ticker)[ticker]['lastPrice']
 
         if ticker not in target:
-            adjust = - cur_val * target[ticker] // price
+            adjust = -cur_val * target[ticker] // price
         else:
             adjust = cur_val * target[ticker] // price - quantity
 
